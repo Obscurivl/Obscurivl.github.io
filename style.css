@@ -15,8 +15,12 @@ body{
 
 }
 
-img{
+.containerPerfil img{
     width: 20%;
+}
+
+.iconos img {
+    width: 10%;
 }
 
 a:visited {
