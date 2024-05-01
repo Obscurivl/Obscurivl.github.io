@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+/* css en general */
 body{
     background-color: black;
     color: white;
@@ -29,6 +30,7 @@ a:hover {
 fieldset {
     padding: 20px 10px;
     margin-bottom: 12px;
+    border-radius: 5px;
 }
 
 legend {
@@ -41,7 +43,7 @@ li {
     color: #727171;
 }
 
-
+/* css a la hoja del ccs*/
 .hojacv {
     max-width: 1000px;
     width: 90%;
@@ -61,7 +63,7 @@ li {
     padding-left: 30px;
 }
 
-/* primer div (nombre) */
+/* primer div (nombre,apellido, etc) */
 h1 span {
     font-weight: normal;
 }
