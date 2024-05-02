@@ -64,6 +64,7 @@ li {
 .containerPerfil {
     display: flex;
     height: 200px;
+    margin-bottom: 30px;
     align-content: space-between;
 }
 
