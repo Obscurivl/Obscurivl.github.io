@@ -23,13 +23,6 @@ div {
     width: 20%;
 }
 
-.iconos {
-    margin-right: 10px;
-}
-
-.iconos img {
-    width: 4%;
-}
 
 a:visited {
     color: #727171;
@@ -78,10 +71,16 @@ li {
 }
 
 .contactos {
-    justify-content: space-around; /* Espaciar elementos uniformemente */
-    align-items: center; /* Centrar verticalmente */
-    height: 200px; /* Altura de ejemplo */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 200px;
 }
+
+.iconos img {
+    width: 4%;
+}
+
 
 /* primer div (nombre,apellido, etc) */
 h1 span {
@@ -93,19 +92,14 @@ h1 {
     color: #ff7613;
     display: block;
     margin-block-start: 15px;
-    margin-block-end: 10px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 h2 {
     font-size: 17pt;
     font-weight: normal;
     display: block;
-    margin-block-start: 15px;
+    margin-block-start: 10px;
     margin-block-end: 10px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 p {
