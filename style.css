@@ -23,6 +23,9 @@ div {
     width: 20%;
 }
 
+a {
+    text-decoration: none;
+}
 
 a:visited {
     color: #727171;
@@ -71,14 +74,24 @@ li {
 }
 
 .contactos {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    height: 200px;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.icono {
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contactos h2 {
+    margin-inline-end: 10%;
+    font-size: 15pt;
 }
 
 .iconos img {
-    width: 4%;
+    width: 3%;
 }
 
 
@@ -99,7 +112,7 @@ h2 {
     font-weight: normal;
     display: block;
     margin-block-start: 10px;
-    margin-block-end: 10px;
+    margin-block-end: 20px;
 }
 
 p {
