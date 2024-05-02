@@ -9,18 +9,26 @@
 
 /* css en general */
 body{
+    display:grid;
     background-color: black;
     color: white;
     font-family: Inter, sans-serif;
+}
 
+div {
+    display: block;
 }
 
 .containerPerfil img{
     width: 20%;
 }
 
+.iconos {
+    margin-right: 10px;
+}
+
 .iconos img {
-    width: 10%;
+    width: 4%;
 }
 
 a:visited {
@@ -52,11 +60,13 @@ li {
     max-width: 1000px;
     width: 90%;
     margin: 0 auto;
+    display: grid;
     padding: 20px 20px;
     background: #070707;
 }
 
 .containerPerfil {
+    display: flex;
     height: 200px;
     align-content: space-between;
 }
@@ -67,6 +77,12 @@ li {
     padding-left: 30px;
 }
 
+.contactos {
+    justify-content: space-around; /* Espaciar elementos uniformemente */
+    align-items: center; /* Centrar verticalmente */
+    height: 200px; /* Altura de ejemplo */
+}
+
 /* primer div (nombre,apellido, etc) */
 h1 span {
     font-weight: normal;
@@ -75,11 +91,21 @@ h1 span {
 h1 {
     font-size: 30pt;
     color: #ff7613;
+    display: block;
+    margin-block-start: 15px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 h2 {
     font-size: 17pt;
     font-weight: normal;
+    display: block;
+    margin-block-start: 15px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 p {
